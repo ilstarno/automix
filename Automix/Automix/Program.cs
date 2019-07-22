@@ -13,7 +13,7 @@ namespace Automix
         // yet and stuff might break.
         public static void Main(string[] args) => BuildAvaloniaApp().Start(AppMain, args);
 
-        // Avalonia configuration, don't remove; also used by visual designer.
+        // Avalonia configuration
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
