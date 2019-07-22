@@ -1,0 +1,31 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Automix.ViewModels;assembly=Automix"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Automix.Views.MainWindow"
+        Icon="/ui/Assets/avalonia-logo.ico"
+        Title="Automix - BOOT ENGINE" WindowStartupLocation="CenterScreen"
+        BorderBrush="Green"
+        WindowState="Maximized">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+  <Panel Name="pnlMain" Styles="width:100%; height:100%;">
+    <Panel Name="pnlLeft" Background="Gray" Width="250" HorizontalAlignment="Left" ZIndex="1">
+      <Button Width="250" Background="Brown" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Content="Main"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,50,0,0" Content="Main"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,50,0,0" Content="Test"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,100,0,0" Content="Main"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,150,0,0" Content="Test"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,200,0,0" Content="Main"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,250,0,0" Content="Test"></Button>
+      <Button Width="250" HorizontalAlignment="left" Height="50" VerticalAlignment="Top" Margin="0,300,0,0" Content="Main"></Button>
+
+    </Panel>
+  </Panel>
+
+</Window>
