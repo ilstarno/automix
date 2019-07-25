@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automix", "Automix\Automix.csproj", "{CA0A9C34-81CA-4E4D-B486-257B3612C235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automix", "Automix\Automix.csproj", "{CA0A9C34-81CA-4E4D-B486-257B3612C235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automix_update", "Automix_update\Automix_update.csproj", "{5960AA64-4CD6-4877-8CC5-D36748D076D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automix_update", "Automix_update\Automix_update.csproj", "{5960AA64-4CD6-4877-8CC5-D36748D076D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automix_ini", "ini_parse\Automix_ini.csproj", "{F90488B2-164A-4C9C-9773-8930BE4A4329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5960AA64-4CD6-4877-8CC5-D36748D076D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5960AA64-4CD6-4877-8CC5-D36748D076D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5960AA64-4CD6-4877-8CC5-D36748D076D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90488B2-164A-4C9C-9773-8930BE4A4329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90488B2-164A-4C9C-9773-8930BE4A4329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90488B2-164A-4C9C-9773-8930BE4A4329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90488B2-164A-4C9C-9773-8930BE4A4329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

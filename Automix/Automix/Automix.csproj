@@ -4,6 +4,7 @@
     <TargetFrameworks>netcoreapp2.1;net461</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="helpers\" />
     <Folder Include="user_controls\" />
     <Folder Include="ui\Models\" />
     <Compile Update="**\*.xaml.cs">
